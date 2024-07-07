@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* card container */
+
+.card-container {
+  width: fit-content;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* background-color: aqua; */
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+}
+.card-img {
+  border-radius: 9px;
+  height: 353px;
+  width: 264px;
+}
+
+.title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
